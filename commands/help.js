@@ -21,6 +21,7 @@ module.exports = {
     });
 
     helpEmbed.setTimestamp();
+     helpEmbed.setFooter("! Dαмαи ѕαιиι#6977")
 
     return message.channel.send(helpEmbed).catch(console.error);
   }
